@@ -1,0 +1,111 @@
+html {
+  background-color: #7ab8ff;
+}
+
+.info {
+  background-color: #7ab8ff;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1C444F;
+  text-align: center;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4876AB;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+.item {
+  background-color: #e8f1ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.item canvas {
+  border: solid black;
+}
+.item button {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #1C444F;
+}
+
+.mobile, .mesh, .draw {
+  display: none;
+}
+
+@media screen and (min-width: 0) {
+  .item h1 {
+    font-size: 20px;
+  }
+  .item h3 {
+    font-size: 15px;
+  }
+  .item p {
+    font-size: 10px;
+  }
+
+  canvas {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 530px) {
+  .item h1 {
+    font-size: 30px;
+  }
+  .item h3 {
+    font-size: 25px;
+  }
+  .item p {
+    font-size: 15px;
+  }
+
+  canvas {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .item h1 {
+    font-size: 40px;
+  }
+  .item h3 {
+    font-size: 20px;
+  }
+  .item p {
+    font-size: 10px;
+  }
+
+  canvas {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .item h1 {
+    font-size: 50px;
+  }
+  .item h3 {
+    font-size: 30px;
+  }
+  .item p {
+    font-size: 20px;
+  }
+
+  canvas {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
